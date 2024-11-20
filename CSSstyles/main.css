@@ -16,16 +16,17 @@
 .introblock{
     width: 400px;
     height: 200px;
-    padding:15px;
+    padding:5px 10px;
     border: 1.5px solid black;
     background: #FFFFFF;
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:center;
     border-radius:5px;
     box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.25);
     flex-shrink:0;
+    row-gap:6px;
 }
 .name{
     font-size:55px;
@@ -39,15 +40,23 @@
     font-size:14px;
     color: #7D7D7D;
     text-align:center;
-    padding-bottom:16px;
 }
 .sociallinks{
     display:flex;
     column-gap:40px;
 }
 .icons{
-    height:30px;
+    width:100%;
+    position:absolute;
 }
-
-
-
+.icons:hover{
+    opacity:0;
+}
+.iconcontainer{
+    height:30px;
+    width:30px;
+    position:relative;
+}
+.pinkicons{
+    width:100%;
+}

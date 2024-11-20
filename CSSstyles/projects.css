@@ -3,20 +3,48 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap:40px;
     row-gap:40px;
-    margin: 30px 50px;
+    margin: 30px 40px;
+    background-color:rgba(255, 231, 242, 1);
 }
 .project{
     border: 1.5px solid black;
-    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.25);
     border-radius:5px;
     height:200px;
-    min-width:150px;
+    min-width:200px;
     background-color:white;
-    transition: background-color 0.2s;
+    transition: background-color 0.1s;
+    transition: box-shadow 0.1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    row-gap: 6px;
 }
 .project:hover{
-    background-color:rgba(255, 231, 242, 1);
+    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 .comingsoon{
     text-align:center;
+}
+.projimgcontainer{
+    height:120px;
+    width:150px;
+}
+.projimg{
+    height:100%;
+    border-radius:3px;
+}
+.projname{
+    font-size:12px;
+    font-weight:700;
+    font-style:italic
+}
+.projskills{
+    font-size:8px;
+    color:#7D7D7D;
+}
+.projlink{
+    height:20px;
+    width:20px;
+    position:relative;
 }
