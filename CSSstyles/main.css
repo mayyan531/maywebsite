@@ -1,58 +1,52 @@
-.main{
+.mainsec{
     background-color:rgba(255, 231, 242, 1);
     height:100vh;
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-.mypic{
-    margin-left: 4vw;
+    column-gap: 30px;
 }
 .maypic{
-    height:55vh;
-    border-radius:30vh;
+    height:200px;
+    border-radius:100px;
     border: 1px solid black;
+    flex-shrink: 0;
 }
 .introblock{
-    width: 60vw;
-    height: 55vh;
+    width: 400px;
+    height: 200px;
+    padding:15px;
     border: 1px solid black;
-    margin-right: 4vw;
     background: #FFFFFF;
     display:flex;
     flex-direction: column;
     align-items:center;
+    justify-content:space-evenly;
+    border-radius:5px;
+    box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    flex-shrink:0;
 }
 .name{
-    font-size:14vh;
+    font-size:55px;
     font-style:italic;
-    font-weight:700;
+    font-weight:800;
     color:#FFACD3;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
-
-    border:1px solid black;
-    margin-bottom:10px;
 }
 .blurb{
-    border: 1px solid black;
-    flex:1;
-    
+    font-size:14px;
+    color: #7D7D7D;
+    text-align:center;
+    padding-bottom:16px;
+}
+.sociallinks{
+    display:flex;
+    column-gap:40px;
+}
+.icons{
+    height:30px;
 }
 
-/*width: 60vw;
-height: 60vh;
-background: #FFFFFF;
-border: 1px solid #000000;
-box-shadow: -2px 2px 4px 2px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-
-font-style: italic;
-font-weight: 700;
-
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-text-fill-color: transparent;*/
 
 
